@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     assem
+relocations:
+  - { offset: 0x2B, size: 0x8, addend: 0x0, symName: _copyarray, symObjAddr: 0x0, symBinAddr: 0x100003C90, symSize: 0x4 }
+  - { offset: 0x40, size: 0x8, addend: 0x0, symName: copy_loop, symObjAddr: 0x4, symBinAddr: 0x100003C94, symSize: 0x24 }
+  - { offset: 0x55, size: 0x8, addend: 0x0, symName: check_upper, symObjAddr: 0x28, symBinAddr: 0x100003CB8, symSize: 0x14 }
+  - { offset: 0x6A, size: 0x8, addend: 0x0, symName: store_char, symObjAddr: 0x3C, symBinAddr: 0x100003CCC, symSize: 0xC }
+  - { offset: 0x7F, size: 0x8, addend: 0x0, symName: copy_done, symObjAddr: 0x48, symBinAddr: 0x100003CD8, symSize: 0x4 }
+  - { offset: 0xAE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003CDC, symSize: 0x118 }
+  - { offset: 0xC9, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003CDC, symSize: 0x118 }
+  - { offset: 0x129, size: 0x8, addend: 0x0, symName: _sendstr, symObjAddr: 0x118, symBinAddr: 0x100003DF4, symSize: 0x34 }
+  - { offset: 0x14D, size: 0x8, addend: 0x0, symName: _printArr, symObjAddr: 0x14C, symBinAddr: 0x100003E28, symSize: 0x84 }
+  - { offset: 0x19B, size: 0x8, addend: 0x0, symName: _sendchar, symObjAddr: 0x1D0, symBinAddr: 0x100003EAC, symSize: 0x28 }
+  - { offset: 0x1C3, size: 0x8, addend: 0x0, symName: __sys_exit, symObjAddr: 0x1F8, symBinAddr: 0x100003ED4, symSize: 0x18 }
+...
